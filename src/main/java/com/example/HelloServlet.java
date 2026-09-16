@@ -12,7 +12,7 @@ public class HelloServlet extends HttpServlet {
                           HttpServletResponse response) throws IOException {
 
         response.setContentType("text/html");
-        response.getWriter().println("<h1>Hello from Jenkins Demo!</h1>");
+        response.getWriter().println("<h1>Hello from Jenkins file -- Demo!</h1>");
         response.getWriter().println("<p>Java → Maven → Jenkins → Docker → Tomcat</p>");
     }
 }
